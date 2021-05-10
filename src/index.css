@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav-link:hover{
+  color:Blue !important;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom:1px solid #565387;
+}
+#header .animated{
+animation: move 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes move{
+  0%{
+    transform: translateY(10px);
+  }
+100%{
+  transform: translateX(-10px);
+
+}
+}
+@keyframes move{
+  0%{
+    transform: translateY(10px);
+  }
+100%{
+  transform: translateX(-10px);
+}
+}
+ 
