@@ -1,6 +1,6 @@
 {
   "name": "react-website",
-  "homepage": "https://Rohit-Mehta-0.github.io/React-website",
+  "homepage": "https://React-website.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
